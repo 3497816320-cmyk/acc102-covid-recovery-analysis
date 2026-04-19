@@ -39,7 +39,7 @@ acc102-covid-recovery-analysis/
 ## 7. Demo Video
 
 A short demo video (1–3 minutes) explains the analysis and key results.
-[Paste your video link here]
+[https://www.bilibili.com/video/BV11aoFBSEro/?vd_source=a7210bbf9966d8a712c1a35cf70316e5 ]
 
 ## 8. Limitations & Future Improvements
 
