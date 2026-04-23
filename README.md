@@ -43,8 +43,10 @@ The analysis was conducted using Python with the following steps:
 
 ## 6. Product link / Demo
 
-GitHub Repository: [https://github.com/3497816320-cmyk/acc102-covid-recovery-analysis]
-Notebook: [https://github.com/3497816320-cmyk/acc102-covid-recovery-analysis/blob/main/covid_recovery_analysis.ipynb]
+GitHub Repository: https://github.com/3497816320-cmyk/acc102-covid-recovery-analysis
+
+Notebook: https://github.com/3497816320-cmyk/acc102-covid-recovery-analysis/blob/main/covid_recovery_analysis.ipynb
+
 Demo Video: [Paste your video link here]
 
 ## 7. Limitations & next steps
