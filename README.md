@@ -1,59 +1,52 @@
 # COVID-19 Economic Recovery Analysis
 
-## **1. Problem & User**  
-This project explores how different countries recovered economically after the COVID-19 pandemic using GDP data. It is intended for students and beginners who want to understand economic trends through clear and simple analysis.
+## 1. Problem & User
+This project examines how different countries recovered economically after the COVID-19 pandemic using GDP data. It is designed for students and beginners who want a clear and straightforward comparison of recovery patterns across countries.
 
----
+## 2. Data
+Source: World Bank (GDP, current US$)  
+Accessed: April 2026  
 
-## **2. Data**  
-**Source:** World Bank (GDP, current US$)  
-**Accessed:** April 2026  
+Key fields:
+- Country Name  
+- GDP (2018–2023)  
 
-The dataset includes GDP values for selected countries in 2019 and 2023, with key fields such as country name and GDP values for each year.  
+The dataset was downloaded from the World Bank and filtered to include 18 countries from different regions and levels of development. A cleaned version of the dataset is included in the data/ folder.
 
-The data was downloaded from the World Bank and then cleaned and organised into a simplified CSV file, which is included in the `data/` folder.
+## 3. Methods
+The analysis was carried out in Python using the following steps:
+- Load data using pandas  
+- Clean and format the dataset (set index, convert units to trillion USD)  
+- Calculate GDP growth rates (2019–2023)  
+- Rank countries based on growth rate  
+- Visualise results using matplotlib (bar chart and multi-year trend chart)  
 
----
+## 4. Key Findings
+- All selected countries show recovery after COVID-19, but at different speeds  
+- Emerging economies generally achieve higher growth rates  
+- Developed economies show more stable but slower growth  
+- Countries with larger economies tend to have lower percentage growth due to a higher starting base  
+- The multi-year data shows a clear dip around 2020 followed by recovery  
 
-## **3. Methods**  
-The analysis was carried out in Python using pandas and matplotlib. The main steps include loading the dataset, cleaning and formatting the data, calculating GDP growth rates, and ranking countries based on their recovery speed. Visualisations were created using bar charts and line charts to present the results more clearly.
-
----
-
-## **4. Key Findings**  
-- All selected countries show signs of economic recovery after COVID-19  
-- Growth rates vary across countries rather than following a single pattern  
-- Larger economies do not necessarily grow faster in percentage terms  
-- Absolute GDP increase does not directly indicate faster recovery  
-
----
-
-## **5. How to run**  
+## 5. How to run
 - Open the notebook in Jupyter Notebook or JupyterLab  
-- Ensure pandas and matplotlib are installed  
-- Run all cells (**Kernel → Restart & Run All**)  
-- Output charts will be saved in the `figures/` folder  
+- Make sure pandas and matplotlib are installed  
+- Run all cells in order (Kernel → Restart & Run All)  
+- Output charts will be saved in the figures/ folder  
 
----
-
-## **6. Product link / Demo**  
-**GitHub Repository:**  
+## 6. Product link / Demo
+GitHub Repository:  
 https://github.com/3497816320-cmyk/acc102-covid-recovery-analysis  
 
-**Notebook:**  
+Notebook:  
 https://github.com/3497816320-cmyk/acc102-covid-recovery-analysis/blob/main/covid_recovery_analysis.ipynb  
 
-**Demo Video:**  
-[Paste your video link here]
+## 7. Limitations & next steps
+This project is based on a selected group of countries, which may limit how representative the results are. GDP is also the only indicator used, so it does not fully capture all aspects of economic recovery, such as employment, inflation, or sector-level performance.
 
----
+In addition, the analysis uses nominal GDP (current US$), which may be influenced by inflation and exchange rate changes, so the results should be interpreted with some caution.
 
-## **7. Limitations & next steps**  
-The dataset includes only a limited number of countries, which may affect how representative the results are. GDP alone may not fully capture economic recovery, and as this analysis is based on nominal GDP (current US$), the results may also be influenced by factors such as inflation and exchange rate changes, so they should be interpreted with some caution.  
-
-The data is also simplified and focuses on selected years rather than a full time period.  
-
-**Future improvements:**  
-- Include more countries and a longer time period  
-- Add additional indicators such as inflation or unemployment  
-- Apply more advanced analytical methods for deeper insights  
+Future improvements could include:
+- Expanding the dataset to include more countries and a longer time period  
+- Adding additional indicators such as inflation or unemployment  
+- Applying more advanced analytical methods for deeper insights  
