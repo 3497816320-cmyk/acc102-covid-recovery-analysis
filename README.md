@@ -51,12 +51,12 @@ Demo Video: [Paste your video link here]
 
 ## 7. Limitations & next steps
 
-* The dataset includes a limited number of countries
-* GDP alone may not fully represent economic recovery
-* The data is simplified and does not include all macroeconomic factors
+The dataset includes a limited number of countries, which may affect how representative the results are. GDP alone may not fully capture economic recovery, as it does not reflect factors such as employment, inflation, or industry performance. In addition, this analysis is based on nominal GDP (current US$), which may be affected by inflation and exchange rate changes, so the results should be interpreted with some caution.
+
+The data is also simplified and focuses on selected years rather than a full time series.
 
 Future improvements:
 
-* Include more countries and years
-* Add additional indicators such as inflation and unemployment
-* Apply more advanced analytical methods for deeper insights
+Include more countries and a longer time period
+Add additional indicators such as inflation, unemployment, or sector-level data
+Apply more advanced analytical methods for deeper insights
